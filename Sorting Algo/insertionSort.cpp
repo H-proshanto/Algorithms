@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void selectionSort(int arr[],int n) {
+void insertionSort(int arr[],int n) {
 
     for(int i = 1; i < n; i++) {
         int key = arr[i];
@@ -29,7 +29,7 @@ int main() {
     int arr[] = {4,5,2,1,3};
     int n = sizeof(arr) / sizeof(arr[0]);
 
-    selectionSort(arr,n);
+    insertionSort(arr,n);
     printArray(arr,n);
 
     return 0;
